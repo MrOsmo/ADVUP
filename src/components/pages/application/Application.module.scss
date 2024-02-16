@@ -1,0 +1,208 @@
+.application {
+
+  .background {
+    background: rgb(0, 0, 0);
+    height: 1400px;
+    overflow: hidden;
+
+    .content {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      .symbols {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        .symbol_one {
+          position: absolute;
+          top: -80px;
+          right: 820px;
+        }
+
+        .symbol_two {
+          position: absolute;
+          top: -40px;
+          right: 540px;
+        }
+
+        .symbol_three {
+          position: absolute;
+          top: -450px;
+          left: 850px;
+        }
+
+        .symbol_four {
+          position: absolute;
+          top: -280px;
+          left: 600px;
+        }
+
+        .symbol_five {
+          position: absolute;
+          top: 250px;
+          left: -400px;
+        }
+
+        .symbol_six {
+          position: absolute;
+          top: 110px;
+          left: 900px;
+        }
+      }
+
+      h1 {
+        color: rgb(255, 255, 255);
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+
+        margin-top: 166px;
+        margin-bottom: 20px;
+
+        z-index: 1;
+      }
+
+      p {
+        color: rgb(168, 168, 168);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: center;
+
+        z-index: 1;
+      }
+
+
+      .form {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 93px;
+        z-index: 1;
+
+        .buttons {
+          display: flex;
+          gap: 7px;
+          margin-top: 10px;
+          margin-right: 315px;
+
+        }
+
+        p {
+          color: rgb(255, 255, 255);
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 150%;
+          letter-spacing: 0%;
+          margin-right: 452px;
+
+
+          margin-bottom: 10px;
+          margin-top: 30px;
+        }
+
+        .person {
+          box-sizing: border-box;
+          border: 1px solid rgb(64, 64, 64);
+          background: transparent;
+
+          padding: 12px 15px;
+
+          color: rgb(168, 168, 168);
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 150%;
+          letter-spacing: 0%;
+          text-align: left;
+
+          margin-bottom: 13px;
+
+          cursor: pointer;
+
+          &.active {
+            color: #000;
+            background-color: rgb(255, 255, 255);
+          }
+        }
+
+        input {
+          color: rgb(168, 168, 168);
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 150%;
+          letter-spacing: 0%;
+          text-align: left;
+
+          padding: 12px 15px;
+
+          background: transparent;
+
+          width: 550px;
+
+          box-sizing: border-box;
+          border: 1px solid rgb(64, 64, 64);
+
+          &.comment_input {
+            padding: 12px 15px 175px 15px;
+          }
+        }
+
+        .name_heading {
+          margin-right: 482px;
+        }
+
+        .email_heading {
+          margin-right: 507px;
+        }
+
+        .phone_heading {
+          margin-right: 490px;
+        }
+
+
+        .send {
+          display: flex;
+          align-items: center;
+          gap: 30px;
+          margin-top: 50px;
+
+          button {
+            color: rgb(0, 0, 0);
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 22px;
+            letter-spacing: 0%;
+            text-align: left;
+
+            border-radius: 30px;
+            background: rgb(255, 255, 255);
+
+            padding: 15px 25px;
+
+            cursor: pointer;
+          }
+
+          h2 {
+            color: rgb(168, 168, 168);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            letter-spacing: 0%;
+            text-align: left;
+
+            a {
+              color: #fff;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+}
